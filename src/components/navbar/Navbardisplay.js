@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../../archivitos/d.PNG'
+import logo from '../../archivitos/soccer master2.png'
 import user from '../../archivitos/user.png';
 
 
@@ -15,7 +15,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
             </div>
             <div className="pestanas">
                 <Link to="/bootcamp">
-                    <span className="less">Learn Now</span>
+                    <span className="less">Administración</span>
                 </Link>
                 <hr className="divider"/>
 
@@ -25,7 +25,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
                         <span >Login</span>
                     </Link></div>:
                     <div className="dropdown" style={{display:"flex", alignItems:"center"}}>
-                        <button className="dropbtn"><img className="userphoto" src={photoURL ? photoURL : user} alt=""/></button>
+                        <button className="dropbtn"><img className="userphoto" src={photoURL ? photoURL :user} alt=""/></button>
                         <div className="dropdown-content">
                             <Link to="/perfil">Perfil</Link>
                             <Link onClick={signOut} to="/">Cerrar sesión</Link>
