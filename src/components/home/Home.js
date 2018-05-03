@@ -7,7 +7,7 @@ class Home extends Component{
     return(
       <div className="slide flex">
         <div className= "espaciochiquito">
-          <h1>Bienvenido a la mejor app de ligas locales </h1>
+          <h1>Bienvenido a la mejor app de ligas locales de la ciudad de pachuca </h1>
             <p> Consulta los partidos y el estado de tus equipos y jugadores favoritos</p>
               <div className= "imagencentral">
               <img className="pre" src={Img}/>
