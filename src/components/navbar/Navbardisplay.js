@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../../archivitos/soccer master2.png'
+import logo from '../../archivitos/soccer master.png'
 import user from '../../archivitos/user.png';
 
 
@@ -14,16 +14,12 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
                 </Link>
             </div>
             <div className="pestanas">
-                <Link to="/bootcamp">
-                    <span className="less">Administración</span>
-                </Link>
+
                 <hr className="divider"/>
 
                 {!isLogged ?
                     <div className="log">
-                    <Link to="/login" >
-                        <span >Login</span>
-                    </Link></div>:
+                  </div>:
                     <div className="dropdown" style={{display:"flex", alignItems:"center"}}>
                         <button className="dropbtn"><img className="userphoto" src={photoURL ? photoURL :user} alt=""/></button>
                         <div className="dropdown-content">

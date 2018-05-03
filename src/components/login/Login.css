@@ -1,111 +1,108 @@
-.form-login{
+.form-login {
   background-image: url('./loginfondo.jpg');
   background-position: center;
   background-size: cover;
-    width:100%;
-    height:100vh;
-    padding-bottom: 50px;
-    padding-top:80px;
-    letter-spacing: 3px;
-      color:#353535;
-
-}
-.bienvenido{
-text-align: center;
-padding:100px;
-margin-left: 30px;
-letter-spacing:2px;
-position: absolute;
-  color:white;
-font-size: 50px;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 50px;
+  padding-top: 80px;
+  letter-spacing: 3px;
+  color: #353535;
 }
 
-.home_login{
-    position: relative;
-    left:290px;
-    background-color:#e8e8ee;
-    width:35%;
-    opacity:0.80;
-    margin:0 auto;
-    padding: 30px 20px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 2px;
-
+.bienvenido {
+  text-align: center;
+  padding: 100px;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  position: absolute;
+  color: white;
+  font-size: 50px;
 }
 
-.home_login h3{
-    font-size: 20px;
-
+.home_login {
+  position: relative;
+  left: 290px;
+  background-color: #e8e8ee;
+  width: 35%;
+  opacity: 0.80;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2px;
 }
 
-.home_login a{
-      color:#353535;
+.home_login h3 {
+  font-size: 20px;
+}
+
+.home_login a {
+  color: #353535;
   text-decoration: underline;
 }
-.linea{
-    height:1px;
-    width:90%;
-    margin: 0 auto;
-    background-color:#353535;;
-    opacity: 0.6;
-    border: none;
+
+.linea {
+  height: 1px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #353535;
+  ;
+  opacity: 0.6;
+  border: none;
 }
-.form{
+
+.form {
   font-size: 16px;
-    text-align: left;
-    width:90%;
-    margin: 30px auto;
-      color:#353535;
-}
-.form input{
-    width:100%;
-    height:40px;
-    border:2px solid #919191;
-    border-radius:4px;
-    line-height:1.2;
-
+  text-align: left;
+  width: 90%;
+  margin: 30px auto;
+  color: #353535;
 }
 
-.form input:focus{
-  border:2px solid #40a9ff;
-}
-.contra-olvidada{
-    margin: 20px 0;
-    font-size: 14px;
-    text-align: center !important;
-      color:#353535;
-}
-.button-login{
-  background-color:transparent;
+.form input {
+  width: 100%;
+  height: 40px;
   border: 2px solid #919191;
-    width:60%;
-    height:40px;
-    margin-top: 10%;
-    padding: 3px 6px;
-    margin-left: 25%;
-    border-radius:3%;
-      color:#353535;
-    font-size: 14px;
-    cursor: pointer;
+  border-radius: 4px;
+  line-height: 1.2;
 }
 
-.button-login:hover{
-  letter-spacing:5px;
-  font-weight:bold;
+.form input:focus {
+  border: 2px solid #40a9ff;
 }
 
+.contra-olvidada {
+  margin: 20px 0;
+  font-size: 14px;
+  text-align: center !important;
+  color: #353535;
+}
+
+.button-login {
+  background-color: transparent;
+  border: 2px solid #919191;
+  width: 60%;
+  height: 40px;
+  margin-top: 10%;
+  padding: 3px 6px;
+  margin-left: 25%;
+  border-radius: 3%;
+  color: #353535;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button-login:hover {
+  letter-spacing: 5px;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 420px) {
-
-  .form-login{
-
-
+  .form-login {
     background-position: center;
     background-size: cover;
-      width:100%;
-      height:130vh;
-
-
+    width: 100%;
+    height: 130vh;
   }
-  }
+}

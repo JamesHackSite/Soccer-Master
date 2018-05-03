@@ -12,7 +12,7 @@ class Login extends Component {
         <div className="bienvenido">
           <p> ¡Bienvenido</p>
           <p id="bienvenido-a"> a </p>
-          <p>Soccer Master! </p>
+          <p>Soccer Master!</p>
 
 
         </div>
