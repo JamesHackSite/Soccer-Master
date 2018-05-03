@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import FontAwesome from 'react-fontawesome';
+import { SocialIcon } from 'react-social-icons';
 import {Link} from 'react-router-dom';
 
 class Footer extends Component {
@@ -15,9 +15,7 @@ class Footer extends Component {
                                 <Link to="/nosotros">
                                     <p>Nosotros</p>
                                 </Link>
-                                <Link to="/nosotros">
-                                    <p>Team</p>
-                                </Link>
+
                                 <Link to="/contacto">
                                     <p>Contacto</p>
                                 </Link>
@@ -35,14 +33,23 @@ class Footer extends Component {
                     <div className="redes">
                         <h3>Work together</h3>
                         <div className="social">
-                            <Link to="https://www.facebook.com/fixterme/" target="blank">
-                                <FontAwesome name="facebook-square" size="2x"/>
+                            <Link to="  " target="blank">
+                               <p> <SocialIcon className="icon" network="facebook"  /> </p>
                             </Link>
-                            <Link to="https://twitter.com/FixTeR_" target="blank">
-                                <FontAwesome name="twitter-square" size="2x"/>
+                            <Link to="" target="blank">
+                          <p> <SocialIcon className="icon" network="twitter" /> </p>
+
                             </Link>
-                            <Link to="https://www.instagram.com/fixtergeek/?hl=es-la" target="blank">
-                                <FontAwesome name="instagram" size="2x"/>
+                            <Link to=" " target="blank">
+                        <p>   <SocialIcon className="icon" network="google" /> </p>
+
+
+                            </Link>
+
+                            <Link to="  " target="blank">
+
+                        <p>  <SocialIcon className="icon" network="instagram" /> </p>
+
                             </Link>
                         </div>
                         <br/>
@@ -54,10 +61,7 @@ class Footer extends Component {
                         </span>
                     </div>
                 </div>
-                <div className= "footer-global-outer">preubba                </div>
             </div>
-
-
         );
     }
 }

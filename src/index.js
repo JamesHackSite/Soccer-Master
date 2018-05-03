@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter} from 'react-router-dom';
-//redux
 import configureStore from './redux/store/store';
 import {Provider} from 'react-redux';
 import {checkForUser} from './redux/actions/userAction';
