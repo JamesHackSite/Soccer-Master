@@ -13,7 +13,7 @@ export const store = configureStore();
 store.dispatch(checkForUser());
 
 const WithRouter = () => (
-
+  
     <Provider store={store}>
         <BrowserRouter>
             <App />
@@ -23,5 +23,5 @@ const WithRouter = () => (
 );
 
 
-ReactDOM.render(<WithRouter />, document.getElementById('root'));
+ReactDOM.render(<WithRouter/>, document.getElementById('root'));
 registerServiceWorker();
