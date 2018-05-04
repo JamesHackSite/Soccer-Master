@@ -27,10 +27,10 @@ class Footer extends Component {
                     <div className="redes">
                         <h3>Siguenos en </h3>
                         <div className="social">
-                            <Link to="  " target="blank">
+                            <Link to=" https://www.facebook.com/Soccer-Master-178651229621468/ " target="blank">
                                <p> <SocialIcon className="icon" network="facebook"  /> </p>
                             </Link>
-                            <Link to="" target="blank">
+                            <Link to="https://twitter.com/SoccerMasterOfi" target="blank">
                           <p> <SocialIcon className="icon" network="twitter" /> </p>
 
                             </Link>
@@ -40,7 +40,7 @@ class Footer extends Component {
 
                             </Link>
 
-                            <Link to="  " target="blank">
+                            <Link to="https://www.instagram.com/appssoccermaster/?hl=es-la  " target="blank">
 
                         <p>  <SocialIcon className="icon" network="instagram" /> </p>
 

@@ -12,12 +12,12 @@
 
 .bienvenido {
   text-align: center;
-  padding: 100px;
-  margin-left: 30px;
+  padding: 50px;
+  margin-left: 15px;
   letter-spacing: 2px;
-  position: absolute;
+  position:absolute;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .home_login {
